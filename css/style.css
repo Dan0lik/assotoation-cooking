@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+body{
+	list-style: none;
+	text-decoration: none;
+}
+.container-foother {
+	max-width: 1324px;
+	margin: 0 auto;
+	font-family:'Yanone Kaffeesatz',Bold 700;
+	color: rgb(241, 239, 239);
+	
+}
+.container_1 {
+	text-align: start;
+	font-size: 18px;
+	max-width: 1224px;
+	margin: 0 auto;
+	font-family:'Yanone Kaffeesatz',Bold 700;
+	
+}
+.container-master{
+	margin: 3%;
+	padding: 10px;
+	background-color: #1d1266dc;
+	border-radius:15px ;
+}
+.container{
+	margin-left: 15px;
+	font-family:'Yanone Kaffeesatz',Bold 700;
+	font-size: 18px;
+
+}
+.cooki{
+	width: 600px;
+	margin-bottom: -400px;
+	margin-left: -50px;
+	border-radius: 15px;
+	 border: 5px solid #8780b5;
+    padding: 1px;
+}
+.contacts{
+	height: 50px;
+	width:auto;
+	margin-top: -5px;
+	max-width: 1220px;
+	margin: auto;
+
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+/*=====Раздел header=====*/
+
+/*=====Подраздел header-top=====*/
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: #1f1853;
+	color:white; 
+    text-shadow: black 0 0 5px;
+	
+
+
+}
+.logo {
+	padding-left: 10px;
+}
+.header-contacts {
+	display: flex;
+	padding-top: 6px;
+	padding-right: 40px;
+	height: 40px;
+	width: auto;
+}
+
+/*=====Подраздел promo=====*/
+.promo {	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background-color: #995555;
+	color: white;
+	background-image: url("../IMG/fan1.png");
+	background-size: cover; 
+	
+
+	
+	
+}
+.promo h1 {
+	font-size: 3rem;
+	font-weight: 600;
+	padding-bottom: 40px;
+
+}
+.promo p {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+}
+/*=====Навигация nav=====*/
+
+.elementy {
+
+	position: sticky;
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background-color: #948dc9;
+	color: #524E49; /* Цвет текста */		
+	font-size: 20px; /* Размер текста */
+	border-radius: 5px; /* Закругление уголков */
+	box-shadow: 0px 1px 3px; /* Тень */
+	/* Задаём анимацию (перемещение). Для всех действий (all) Время перемещения (0.8 сек.) Направление перемещения (cubic-bezier(0.165, 0.84, 0.44, 1)) */
+	-webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);	
+	text-shadow: black 0 0 5px;
+
+
+}
+.elementy:hover { 
+-webkit-transform: translate(10px);
+transform: translate(10px);
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5) /* Изменяем тень */
+}
+.events{
+	margin: auto;
+	max-width: 2220px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	background-color:#625a96 ;
+	font-size:17px; 
+	background-image: url(../IMG/cooki-fon.png);
+	background-size: cover;
+	height: 550px;
+	width: auto;
+ 
+}
+
+.events-title{
+	color: white;
+	font-family: Helvetica, sans-serif;
+	text-shadow: black 0 0 5px;
+}
+.events__ul{
+	display: flex;
+	font-family: 'Yanone Kaffeesatz',Bold 700;
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 30px;
+	text-shadow: rgb(0, 0, 0);
+	border-radius: 20px;
+	border: 4px solid rgb(194, 193, 193);
+	padding: 1%;	
+}
+.container-button{
+	display: flex;
+  	font-family: 'Yanone Kaffeesatz'Bold 700;
+	list-style: none;
+	margin: auto;
+	font-size: 17px;
+	text-shadow: black 0 0 5px;
+	border-radius: 20px;
+	border: 4px solid rgb(194, 193, 193);
+	padding: 20px;
+	margin-left: 50px; 
+	font-size: 22px;
+
+	background-color:rgba(56, 231, 120, 0.795);
+	text-align: center;
+}
+.events__ul_2{
+	display: flex;
+  	font-family: 'Yanone Kaffeesatz'Bold 700;
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 17px;
+	text-shadow: black 0 0 5px;
+	border-radius: 20px;
+	border: 4px solid rgb(194, 193, 193);
+	padding: 1%;
+
+}
+
+.education{
+	font-family: Cambria;
+	text-align: center;
+	
+}
+
+a{
+color: #ffffff;
+opacity: 0.9;
+ text-decoration: none;
+}
+nav{
+	top:0px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#a098d9;
+
+}
+nav ul {
+	display: flex;
+	max-width: 980px;
+	margin: 0 auto;
+	list-style: none;
+	justify-content: space-around;
+}
+
+
+/*=====Раздел main=====*/
+
+/*=====Подраздел about=====*/
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.about-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+.about-title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.about-wrap p {
+	padding: 20px 30px;
+	font-size: 1.2rem;
+	line-height: 2.0;
+}
+/*=====Подраздел activities=====*/
+.activities {
+	max-width: 1320px;
+	margin: auto;
+	background-color: #8780b5;
+
+}
+.activities-title {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+.activities-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 1px;
+	
+}
+.activities-item {
+	box-sizing: border-box;
+	width: 30%;
+	padding: 30px;
+	color: #ddddff;
+	font-size: 1.1rem;
+}
+.activities-image {
+	background-image: url(../IMG/logo.png);
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+.btn-invitation_1{
+	margin: auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:rgba(49, 224, 119, 0.795);
+    width: 320px;
+    padding:5px;
+    border-radius: 50px;
+	border: 4px solid rgb(194, 193, 193);
+	text-align: center;
+	color: black;
+}
+.btn-invitation_a{
+	color: black;
+	font-size: 32px;
+	font-family: Impact;
+
+}
+.btn-invitation_p{
+	font-size: 22px;
+	text-align: center;
+	margin-left:80px;
+	margin-top:-90px ;
+	font-family: Cambria;
+}
+.img-protection{
+	background-image: url(../IMG/protection.png);
+
+	background-size: cover; 
+}
+.logo{
+	width: 100px;
+	height: auto;
+}
+.decoration-3-1{
+	margin-top: 10px;
+	height: 100px;
+ 	width: auto;
+	margin-right: 800x; 
+	opacity: 0.4;
+	transform: rotate(16deg);
+
+}
+.decoration-3{
+	margin-top: 10px;
+	height: 100px;
+	 width: auto;
+	  margin-left: 200px; 
+	   opacity: 0.4;
+	   transform: rotate(14deg);
+}
+.decoration-4{
+	height: 100px;
+	 width: auto;
+	  margin-right: 10px; 
+	   opacity: 0.4;
+	   transform: rotate(115deg);
+}
+.dekor{
+	margin-bottom: 160px;
+	margin-left: 800px;
+	width: 180px;
+	height: auto;
+	transform: rotate(120deg);
+}
+.img-cooperation{
+	background-image: url(../IMG/cooperation.png);
+	background-size: cover; 
+}
+.img-prestige{
+	background-image: url(../IMG/prestige.png);
+	background-size: cover; 
+}
+.img-skills{
+	background-image: url(../IMG/skills.png);
+	background-size: cover; 
+}
+.img-qualification{
+	background-image: url(../IMG/qualification.png);
+	background-size: cover; 
+}
+/*=====Подраздел invitation=====*/
+.invitation{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*=====Раздел events=====*/
+
+/*=====Раздел education=====*/
+
+/*=====Раздел training=====*/
+.training-item{
+	margin-top:80px;
+	margin-left:50px;
+	font-family: Impact;
+	font-size: 22px;		
+}
+.training-item-photo{
+	margin-left: 20px;
+	width: 400px;
+	height: auto;
+	border-radius: 15px;
+
+}
+.training-item-2{
+	margin-top: -380px;
+	margin-left: 650px;
+	padding-bottom: 35px;
+}
+
+.training-item-title{
+	color:white;
+	opacity: 0.98;
+}
+
+/*=====Раздел target=====*/
+
+/*=====Раздел footer=====*/
+.social{
+	margin-right: 80px;
+}
+footer {
+	background-color: #1b1545;
+}
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #bbbbff;
+}
+/* https://colorscheme.ru/#0032Heejdw0w0 */
