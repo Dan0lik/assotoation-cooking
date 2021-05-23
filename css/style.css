@@ -276,7 +276,7 @@ nav ul {
 	font-size: 1.1rem;
 }
 .activities-image {
-	background-image: url(../IMG/logo.png);
+	background-image: url("../IMG/logo.png");
 	width: 100px;
 	height: 100px;
 	margin-bottom: 20px;
@@ -309,7 +309,7 @@ nav ul {
 	font-family: Cambria;
 }
 .img-protection{
-	background-image: url(../IMG/protection.png);
+	background-image: url("../IMG/protection.png");
 
 	background-size: cover; 
 }
@@ -349,19 +349,19 @@ nav ul {
 	transform: rotate(120deg);
 }
 .img-cooperation{
-	background-image: url(../IMG/cooperation.png);
+	background-image: url("../IMG/cooperation.png");
 	background-size: cover; 
 }
 .img-prestige{
-	background-image: url(../IMG/prestige.png);
+	background-image: url("../IMG/prestige.png");
 	background-size: cover; 
 }
 .img-skills{
-	background-image: url(../IMG/skills.png);
+	background-image: url("../IMG/skills.png");
 	background-size: cover; 
 }
 .img-qualification{
-	background-image: url(../IMG/qualification.png);
+	background-image: url("../IMG/qualification.png");
 	background-size: cover; 
 }
 /*=====Подраздел invitation=====*/
