@@ -83,8 +83,9 @@ h2 {
 	display: flex;
 	padding-top: 6px;
 	padding-right: 40px;
-	height: 40px;
+	height: 50px;
 	width: auto;
+	font-size: 16px;
 }
 
 /*=====Подраздел promo=====*/
@@ -125,15 +126,13 @@ h2 {
 	padding-bottom: 10px;
 	padding-right: 15px;
 	padding-left: 15px;
-	background-color: #948dc9;
+	background-color: #382e8100;
 	color: #524E49; /* Цвет текста */		
 	font-size: 20px; /* Размер текста */
 	border-radius: 5px; /* Закругление уголков */
-	box-shadow: 0px 1px 3px; /* Тень */
-	/* Задаём анимацию (перемещение). Для всех действий (all) Время перемещения (0.8 сек.) Направление перемещения (cubic-bezier(0.165, 0.84, 0.44, 1)) */
+	/* Задаём анимацию (перемещение).  */
 	-webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-	transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);	
-	text-shadow: black 0 0 5px;
+	
 
 
 }
@@ -147,7 +146,7 @@ box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5) /* Изменяем тень */
 	max-width: 2220px;
 	margin-top: 50px;
 	margin-bottom: 70px;
-	background-color:#625a96 ;
+	background-color:#382e81ee;
 	font-size:17px; 
 	background-image: url(../IMG/cooki-fon.png);
 	background-size: cover;
@@ -217,7 +216,7 @@ nav{
 	top:0px;
 	padding-top:15px;
 	padding-bottom:15px;
-	background-color:#a098d9;
+	background-color:#382e81ee;
 
 }
 nav ul {
@@ -253,8 +252,15 @@ nav ul {
 .activities {
 	max-width: 1320px;
 	margin: auto;
-	background-color: #8780b5;
+	background-color: #382e81ee;
 
+}
+.education-2{
+	text-align: left;
+
+}
+.ul_fother{
+	font-size: 16px;
 }
 .activities-title {
 	color: white;
@@ -276,7 +282,7 @@ nav ul {
 	font-size: 1.1rem;
 }
 .activities-image {
-	background-image: url("../IMG/logo.png");
+	background-image: url(../IMG/logo.png);
 	width: 100px;
 	height: 100px;
 	margin-bottom: 20px;
@@ -309,7 +315,7 @@ nav ul {
 	font-family: Cambria;
 }
 .img-protection{
-	background-image: url("../IMG/protection.png");
+	background-image: url(../IMG/protection.png);
 
 	background-size: cover; 
 }
@@ -349,19 +355,19 @@ nav ul {
 	transform: rotate(120deg);
 }
 .img-cooperation{
-	background-image: url("../IMG/cooperation.png");
+	background-image: url(../IMG/cooperation.png);
 	background-size: cover; 
 }
 .img-prestige{
-	background-image: url("../IMG/prestige.png");
+	background-image: url(../IMG/prestige.png);
 	background-size: cover; 
 }
 .img-skills{
-	background-image: url("../IMG/skills.png");
+	background-image: url(../IMG/skills.png);
 	background-size: cover; 
 }
 .img-qualification{
-	background-image: url("../IMG/qualification.png");
+	background-image: url(../IMG/qualification.png);
 	background-size: cover; 
 }
 /*=====Подраздел invitation=====*/
